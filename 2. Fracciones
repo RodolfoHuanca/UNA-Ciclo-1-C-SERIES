@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int x,y;
+    cin>>x;
+    for( y=1 ; y<=x ; y++){
+        cout<<"1/"<<y<<" ";
+    }
+    return 0;
+}
