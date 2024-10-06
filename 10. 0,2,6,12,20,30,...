@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int x,y,z,p;
+    x=0;
+    cin>>p;
+    z=p*2;
+    for ( y=0 ; y<z ; y=y+2){
+        x=x+y;
+        cout<<x<<" ";
+    }
+    return 0;
+}
