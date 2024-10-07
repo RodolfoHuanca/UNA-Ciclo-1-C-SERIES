@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int i,N;
+    cin >> N;
+    int x=100;
+    for ( i=0 ; i<N ; i++ ){
+        cout<<x<< " ";
+        x=x-(i + 1)*2;
+    }
+    return 0;
+}
