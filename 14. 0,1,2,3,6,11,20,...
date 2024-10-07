@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int N,i;
+    cin >> N;
+    int a=0, b=1, c=2, m;
+    for ( i=0 ; i<N ; i++ ){
+        if (i==0) {
+            cout<<a<<" ";
+        } else if (i==1) {
+            cout<<b<<" ";
+        } else if (i==2) {
+            cout<<c<<" ";
+        } else {
+            m = a + b + c;
+            cout<<m<<" ";
+            a = b;
+            b = c;
+            c = m;
+        }
+    }
+    return 0;
+}
